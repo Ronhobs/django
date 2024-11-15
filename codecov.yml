@@ -1,0 +1,7 @@
+coverage:
+  precision: 2
+  round: down
+  range: "70...100"
+
+fixes:
+  - "C:\\Users\\hh\\django-testing-examples::"  # Replace this with your Django project path
