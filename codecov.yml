@@ -2,6 +2,14 @@ coverage:
   precision: 2
   round: down
   range: "70...100"
+  paths:
+    - "C:/Users/hh/django-testing-examples"  # Path to your Django project
 
-fixes:
-  - "C:/Users/hh/django-testing-examples"  # Correctly formatted path for Windows
+codecov:
+  notify:
+    require_ci_to_pass: true
+  comment:
+    behavior: default
+    layout: "reach,diff,flags,tree,reach"
+    show_carryforward_flags: false
+  max_report_age: off
