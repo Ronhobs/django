@@ -4,4 +4,4 @@ coverage:
   range: "70...100"
 
 fixes:
-  - "C:\\Users\\hh\\django-testing-examples"  # Make sure this points to your correct path
+  - "C:/Users/hh/django-testing-examples"  # Correctly formatted path for Windows
