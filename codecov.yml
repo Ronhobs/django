@@ -2,14 +2,14 @@ coverage:
   precision: 2
   round: down
   range: "70...100"
-  paths:
-    - "C:/Users/hh/django-testing-examples"  # Path to your Django project
+  status:
+    project:
+      default:
+        threshold: 1%
+    patch: true
+    changes: true
 
-codecov:
-  notify:
-    require_ci_to_pass: true
-  comment:
-    behavior: default
-    layout: "reach,diff,flags,tree,reach"
-    show_carryforward_flags: false
-  max_report_age: off
+comment:
+  behavior: default
+  layout: "file,tree,flags"  # Corrected layout options
+  show_carryforward_flags: false
